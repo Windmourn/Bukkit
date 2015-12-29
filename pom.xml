@@ -6,6 +6,13 @@
     <name>Bukkit</name>
     <url>http://www.bukkit.org</url>
 
+    <parent>
+        <groupId>io.github.windmourn</groupId>
+        <artifactId>uuidfix-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
